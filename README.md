@@ -62,6 +62,9 @@ str=input("Enter a string:\t")
 
 
 if re.fullmatch("[A-Z][a-z]+",str):  Our string must have AT LEAST ONE LOWERCASE LETTER 
+
+
+
 	print("The string %s is valid"%(str))
 else:
 	print("The string %s is not valid"%(str)) 
