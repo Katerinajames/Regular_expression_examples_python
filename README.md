@@ -29,4 +29,4 @@ print("The string you have just entered is :%s"%(str))
 if re.fullmatch("[A-Z][a-z]*", str):   A custom character class is defined by square brackets   which matches a single character .In our example we ensurwe that the string we will entere begins with an upper case letter followed by lower case 
 	print("The string is valid")   letters
 else:
-     print("The string is not  valid")
+     print("The string is not  valid")    The * quantifier means zero or more occurrences 
