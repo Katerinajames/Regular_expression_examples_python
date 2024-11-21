@@ -1,9 +1,10 @@
 import re 
 
-txt = "The	rain	 in	 Spain"
-x = re.split(" \t", txt)
-print(x) 
+import re 
 
+txt = "Hello	there"
+x = re.split(" \t", txt)
+print(x)
 
    
   
