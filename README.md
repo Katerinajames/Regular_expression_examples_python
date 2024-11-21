@@ -85,6 +85,13 @@ print(k)
 
 
 
+import re 
+
+txt = "Hello	there"
+x = re.split(" \t", txt) The split function splits the string by the the occurrences of the regular expression pattern 
+print(x)
+
+
 
 
 
