@@ -30,3 +30,24 @@ if re.fullmatch("[A-Z][a-z]*", str):   A custom character class is defined by sq
 	print("The string is valid")   letters
 else:
      print("The string is not  valid")    The * quantifier means zero or more occurrences 
+
+
+custom_character_classes2.py
+
+
+str=input("Enter a string:\t")
+
+print("The string you have just entered is :%s"%(str))
+
+if re.fullmatch("[^a-z][a-z]*", str):  The string is valid  if it DOES NOT START WITH A LOWER CASE LETTER 
+	print("The string is valid")
+else:
+     print("The string is not  valid")
+
+
+
+
+
+
+
+
