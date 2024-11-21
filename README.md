@@ -9,6 +9,9 @@ if re.fullmatch(string ,"H  ello"):fullmatch is a function that  examines if the
 else:
 	 print (" No Match") 
 
+
+
+  
 validating_a_zipcode.py
 import re 
 
@@ -17,6 +20,9 @@ if re.fullmatch(r"\d{5}",z): \d  represents a digit between between 0 and 9 ,  {
 	   print("It is valid")
 else:
 	  print ("It is not valid")
+
+
+   
 
 custom_character_classes.py
 
@@ -43,6 +49,22 @@ if re.fullmatch("[^a-z][a-z]*", str):  The string is valid  if it DOES NOT START
 	print("The string is valid")
 else:
      print("The string is not  valid")
+
+     
+
+custom_character_classes4.py
+
+import re 
+
+str=input("Enter a string:\t")
+
+
+
+if re.fullmatch("[A-Z][a-z]+",str):  Our string must have AT LEAST ONE LOWERCASE LETTER 
+	print("The string %s is valid"%(str))
+else:
+	print("The string %s is not valid"%(str)) 
+
 
 
 
