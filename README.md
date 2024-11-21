@@ -69,6 +69,29 @@ if re.fullmatch("[A-Z][a-z]+",str):  Our string must have AT LEAST ONE LOWERCASE
 else:
 	print("The string %s is not valid"%(str)) 
 
+replace_strings2.py
+
+import re 
+
+str="I like regular expressions"
+
+
+k=re.sub("s","x",str) :we call the function sub and we relace  s with x in string str 
+
+print ("Our string after the repacement of s with  x")
+
+print(k)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
