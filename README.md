@@ -84,6 +84,8 @@ print(k)
 
 
 
+split_function.py
+
 
 import re 
 
@@ -94,10 +96,19 @@ print(x)
 
 
 
+search_function.py
 
 
+import re 
 
+str="Python is a fascinating programming language"
 
+result=re.search("is", str)   Function search  looks in a given string for the FIRST occurrence of a regular expression 
+
+if result:
+       print(result.group())
+else:
+	 print ("The specific word was not found")
 
 
 
