@@ -120,6 +120,8 @@ string="I like maths"
 
 result=re.search("^I",string)           The ^ metacharacter at the beginning of a regular expression  indicates that the expression matches only the beginning of a string 
 	 
+
+
 if result:
 	 
 	 print ("The  word that matches our regular expression is %s" %(result.group()) )
