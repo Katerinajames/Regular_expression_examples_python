@@ -118,7 +118,7 @@ import re
 
 string="I like maths"
 
-result=re.search("^I",string)  The ^ metacharacter at the beginning of a regular expression  indicates that the expression matches only the beginning of a string 
+result=re.search("^I",string)           The ^ metacharacter at the beginning of a regular expression  indicates that the expression matches only the beginning of a string 
 	 
 if result:
 	 
