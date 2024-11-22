@@ -153,7 +153,7 @@ function_find_all.py
 
 import re 
 
-s="This is my chance to fulfill my goals"            Function findall finds every matching substring in a string
+s="This is my chance to fulfill my goals"                      Function findall finds every matching substring in a string
 
 
 print (re.findall("is", s))    thw
