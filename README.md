@@ -108,7 +108,38 @@ result=re.search("is", str)   Function search  looks in a given string for the F
 if result:
        print(result.group())
 else:
-	 print ("The specific word was not found")
+	 print ("The specific word was not found") 
+
+
+metacharacters_restrict_matches.py
+
+
+import re 
+
+string="I like maths"
+
+result=re.search("^I",string)  The ^ metacharacter at the beginning of a regular expression  indicates that the expression matches only the beginning of a string 
+	 
+if result:
+	 
+	 print ("The  word that matches our regular expression is %s" %(result.group()) )
+
+else:
+	print ("There is no match")
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
