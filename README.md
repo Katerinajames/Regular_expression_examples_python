@@ -137,7 +137,7 @@ import re
 
 string="Programming can be an  extremely challenging task"
 
-result=re.search("task$",string)  Τhe $ metacharacter at the end of a regular expression  indicates that the expression matches only the end of the string 
+result=re.search("task$",string)                                        Τhe $ metacharacter at the end of a regular expression  indicates that the expression matches only the end of the string 
 	 
 if result:
 	 
